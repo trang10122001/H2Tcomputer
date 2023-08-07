@@ -8,7 +8,7 @@
 - **Libraries** [Chart.js](https://www.chartjs.org/)
 - **Bảo mật:** SQL Injection, XSS, CSRF
 
-## [DEMO](http://H2Tcomputer.com/)
+## [DEMO](https://trang10122001.github.io/H2Tcomputer/)
 
 ## HÌNH ẢNH
 ![](./photos/1.PNG)

@@ -1,3 +1,15 @@
+
+.header a {
+    /* color: white; */
+    text-shadow: 0 0 3px rgb(250, 155, 155);
+    text-align: left;
+   
+    /* color: rgb(255, 157, 148); */
+    text-shadow: rgba(250, 155, 166, 0.64) -1px -2px 0.5em;
+    font-family: "Time New Roman";
+    /* color: #ff7d7d !important; */
+    
+}
 .header-mobile {
     display: none;
 }
@@ -25,17 +37,7 @@
     z-index: 99;
 }
 
-.header a {
-    /* color: white; */
-    text-shadow: 0 0 3px rgb(250, 155, 155);
-    text-align: left;
-   
-    /* color: rgb(255, 157, 148); */
-    text-shadow: rgba(250, 155, 166, 0.64) -1px -2px 0.5em;
-    font-family: "Time New Roman";
-    /* color: #ff7d7d !important; */
-    font-size: 36px;
-}
+
 
 .header-top .row {
     margin: 0;
@@ -161,7 +163,7 @@
     margin-left: auto;
     padding: 0 10px;
     
-    background-color: rgba(178, 99, 77, 0.315);
+    background-color: rgba(0, 0, 0, 0.15);
     align-items: center;
     
     border-radius: 4px;
@@ -184,7 +186,7 @@
 .header .wrapper-auth a,
 .header .wrapper-cart a {
     display: block;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .header .wrapper-auth .icon-auth,
@@ -361,7 +363,7 @@ a.header-btn-transparent {
 
 [data-theme="dark"] .header-menu .nav-category > .category-item-menu:hover > a {
     background-color: #383838;
-    color: rgb(240, 153, 153);
+    color: white;
 }
 
 .header-menu .nav-category > .category-item-menu:hover > a::after {
@@ -403,7 +405,7 @@ a.header-btn-transparent {
 
 .header-menu .nav-category .category-item-menu .wrapper-subcate a {
     border: none;
-    font-size: 16px;
+    font-size: 14px;
     padding-left: 0;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -587,7 +589,7 @@ a.header-btn-transparent {
     }
 
     .homepage-product .header-title {
-        font-size: 28px;
+        font-size: 18px;
     }
 
     .header-sub-category {
@@ -693,7 +695,7 @@ a.header-btn-transparent {
 
     .header-mobile .header-bottom {
         padding: 8px;
-        background-color: #7c93c6;
+        background-color: #f1f0f1;
         border-bottom: 1px solid #d4d4d4;
         transition: all ease 0.5s;
     }
@@ -726,7 +728,7 @@ a.header-btn-transparent {
     }
 
     .show-all a {
-        font-size: 30px;
+        font-size: 14px;
     }
 
     .homepage-product .container {
